@@ -1,0 +1,35 @@
+.team-details {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex: auto;
+    background-color: yellow;
+    align-items: inherit;
+
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: right;
+}
+
+.nav-item {
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    background-color: rosybrown;
+}
+
+.team-members {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px, 5px;
+}
